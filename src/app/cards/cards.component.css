@@ -1,0 +1,5 @@
+.cards-back{
+    background: url("../../img/3.jpg");
+    background-size: cover;
+    height: 90vh;
+}

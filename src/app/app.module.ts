@@ -8,6 +8,7 @@ import { HipageComponent } from './hipage/hipage.component';
 import { WhatisComponent } from './whatis/whatis.component';
 import { CardsComponent } from './cards/cards.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
